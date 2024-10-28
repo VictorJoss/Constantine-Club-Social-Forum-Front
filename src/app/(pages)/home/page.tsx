@@ -1,6 +1,7 @@
 import { SplitedContainer} from "@/components/splited-container";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { Discussion } from "@/components/discussion"; 
 
 export default function HomePage(){
     return (
@@ -20,7 +21,7 @@ export default function HomePage(){
             </div>
 
             <div className="border-muted border-x-[1px]">
-                Discusiones
+                <Discussion/>
             </div>
         </div>
     );
