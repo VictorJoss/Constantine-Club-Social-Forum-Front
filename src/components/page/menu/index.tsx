@@ -2,6 +2,7 @@ import Link from "next/link";
 import ccLogo from "@/images/cclogo.png"
 import Image from "next/image";
 import {HomeIcon, LogOut, UserRound} from "lucide-react";
+import {DiscussionDialog} from "@/components/discussion-dialog";
 
 export function PageMenu(){
     return(
@@ -30,6 +31,9 @@ export function PageMenu(){
                     <div>Salir</div>
                 </div>
                 </Link>
+                <div className="m-auto w-full">
+                    <DiscussionDialog/>
+                </div>
             </div>
         </nav>
     );
