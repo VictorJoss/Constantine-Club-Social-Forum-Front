@@ -13,7 +13,7 @@ export default function pageLayout({children, }:{
             <div className="flex w-full max-w-[680px]">
                 {children}
             </div>
-            <div className="sticky top-0 w-full max-w-[320px]">
+            <div className="sticky top-0 flex w-full max-w-[320px]">
                 <PageSearch/>
             </div>
         </div>

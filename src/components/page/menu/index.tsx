@@ -13,13 +13,13 @@ export function PageMenu(){
                     <Image src={ccLogo} width={100} height={100} alt="Club Constantine"></Image>
                 </div>
                 </Link>
-                <Link href="/" className="flex gap-4 rounded-full p-4 hover:bg-menu-hover text-lg">
+                <Link href="/home" className="flex gap-4 rounded-full p-4 hover:bg-menu-hover text-lg">
                 <div>
                     <HomeIcon></HomeIcon>
                 </div>
                 <div>Home</div>
                 </Link>
-                <Link href="/" className="flex gap-4 rounded-full p-4 hover:bg-menu-hover text-lg">
+                <Link href="/profile" className="flex gap-4 rounded-full p-4 hover:bg-menu-hover text-lg">
                 <div>
                     <UserRound></UserRound>
                 </div>
